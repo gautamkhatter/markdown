@@ -2,11 +2,16 @@
 /* Save this as markdown-preview.css in your project or user settings */
 
 /* Dark theme for code blocks */
+pre code,
+.hljs,
 .vscode-dark pre,
 .vscode-dark code,
-.vscode-dark .hljs {
-    font-size: 15px !important;
+.vscode-dark .hljs,
+code[class*="language-"],
+pre[class*="language-"] {
+    font-size: 14px !important;
 }
+
 .vscode-dark pre {
     background-color: #0a1419 !important;
     border: 1px solid #0f1a20 !important;
