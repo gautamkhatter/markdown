@@ -60,7 +60,7 @@ pre .hljs-sql {
 /* Comments */
 .vscode-dark .hljs-comment,
 .vscode-dark .hljs-quote {
-    color: #8FBCBB !important;
+    color: #46545c !important;
     font-style: italic;
 }
 
