@@ -64,6 +64,19 @@ pre .hljs-sql {
     font-style: italic;
 }
 
+/* SQL and other code block comments */
+.vscode-dark .language-sql .hljs-comment,
+.vscode-dark .language-javascript .hljs-comment,
+.vscode-dark .language-python .hljs-comment,
+.vscode-dark .language-cpp .hljs-comment,
+.vscode-dark .language-java .hljs-comment,
+.vscode-dark .language-php .hljs-comment,
+.vscode-dark .language-ruby .hljs-comment,
+.vscode-dark .language-go .hljs-comment {
+    color: #46545c !important;
+    font-style: italic;
+}
+
 /* Numbers and Literals */
 .vscode-dark .hljs-number,
 .vscode-dark .hljs-meta {
