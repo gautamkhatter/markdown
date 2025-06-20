@@ -2,6 +2,9 @@
 /* Save this as markdown-preview.css in your project or user settings */
 
 /* Dark theme for code blocks */
+pre, code {
+    font-size: 16px !important;
+}
 .vscode-dark pre {
     background-color: #0a1419 !important;
     border: 1px solid #0f1a20 !important;
