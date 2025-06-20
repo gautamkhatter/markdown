@@ -1,0 +1,152 @@
+/* Custom CSS for VS Code Markdown Preview */
+/* Save this as markdown-preview.css in your project or user settings */
+
+/* Dark theme for code blocks */
+.vscode-dark pre {
+    background-color: #0a1419 !important;
+    border: 1px solid #0f1a20 !important;
+}
+
+.vscode-dark code {
+    background-color: #0a1419 !important;
+    color: #d4d4d4 !important;
+}
+
+/* Inline code styling */
+.vscode-dark p code,
+.vscode-dark li code {
+    background-color: #0a1419 !important;
+    color: 	#D8DEE9 !important;
+    padding: 2px 4px !important;
+    border-radius: 3px !important;
+}
+
+pre .hljs-sql {
+    color: #D8DEE9 !important;
+}
+
+/* Code block content styling */
+.vscode-dark pre code {
+    background-color: transparent !important;
+}
+
+/* Complete Nord Theme Syntax Highlighting for VSCode */
+
+/* Keywords and Control Flow */
+.vscode-dark .hljs-keyword,
+.vscode-dark .hljs-built_in,
+.vscode-dark .hljs-type,
+.vscode-dark .hljs-literal {
+    color: #81A1C1 !important;
+}
+
+/* Strings and Text */
+.vscode-dark .hljs-string,
+.vscode-dark .hljs-regexp,
+.vscode-dark .hljs-template-string {
+    color: #A3BE8C !important;
+}
+
+/* Comments */
+.vscode-dark .hljs-comment,
+.vscode-dark .hljs-quote {
+    color: #8FBCBB !important;
+    font-style: italic;
+}
+
+/* Numbers and Literals */
+.vscode-dark .hljs-number,
+.vscode-dark .hljs-meta {
+    color: #88C0D0 !important;
+}
+
+/* Functions and Methods */
+.vscode-dark .hljs-function,
+.vscode-dark .hljs-title,
+.vscode-dark .hljs-params {
+    color: #D8DEE9 !important;
+}
+
+/* Variables and Identifiers */
+.vscode-dark .hljs-variable,
+.vscode-dark .hljs-name,
+.vscode-dark .hljs-attr {
+    color: #D8DEE9 !important;
+}
+
+/* Classes and Types */
+.vscode-dark .hljs-class,
+.vscode-dark .hljs-title.class_,
+.vscode-dark .hljs-inheritance {
+    color: #81A1C1 !important;
+}
+
+/* Properties and Attributes */
+.vscode-dark .hljs-property,
+.vscode-dark .hljs-attribute {
+    color: #88C0D0 !important;
+}
+
+/* Operators and Punctuation */
+.vscode-dark .hljs-operator,
+.vscode-dark .hljs-punctuation {
+    color: #D8DEE9 !important;
+}
+
+/* Tags (HTML/XML) */
+.vscode-dark .hljs-tag,
+.vscode-dark .hljs-name {
+    color: #81A1C1 !important;
+}
+
+/* Preprocessor and Directives */
+.vscode-dark .hljs-meta,
+.vscode-dark .hljs-meta-keyword,
+.vscode-dark .hljs-doctag {
+    color: #88C0D0 !important;
+}
+
+/* Constants and Enums */
+.vscode-dark .hljs-symbol,
+.vscode-dark .hljs-bullet,
+.vscode-dark .hljs-code {
+    color: #A3BE8C !important;
+}
+
+/* Emphasis and Strong */
+.vscode-dark .hljs-emphasis {
+    font-style: italic;
+}
+
+.vscode-dark .hljs-strong {
+    font-weight: bold;
+}
+
+/* Links */
+.vscode-dark .hljs-link {
+    color: #88C0D0 !important;
+    text-decoration: underline;
+}
+
+/* Deleted and Added (Git) */
+.vscode-dark .hljs-deletion {
+    color: #BF616A !important;
+    background-color: rgba(191, 97, 106, 0.1);
+}
+
+.vscode-dark .hljs-addition {
+    color: #A3BE8C !important;
+    background-color: rgba(163, 190, 140, 0.1);
+}
+
+/* Section and Headers */
+.vscode-dark .hljs-section {
+    color: #81A1C1 !important;
+    font-weight: bold;
+}
+
+/* Template Variables */
+.vscode-dark .hljs-template-variable,
+.vscode-dark .hljs-subst {
+    color: #D8DEE9 !important;
+}
