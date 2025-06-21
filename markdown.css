@@ -13,19 +13,19 @@ pre[class*="language-"] {
 }
 
 .vscode-dark pre {
-    background-color: #0a1419 !important;
-    border: 1px solid #0f1a20 !important;
+    background-color: #0b1318 !important;
+    border: 1px solid #10191f !important;
 }
 
 .vscode-dark code {
-    background-color: #0a1419 !important;
+    background-color: #0b1318 !important;
     color: #d4d4d4 !important;
 }
 
 /* Inline code styling */
 .vscode-dark p code,
 .vscode-dark li code {
-    background-color: #0a1419 !important;
+    background-color: #0b1318 !important;
     color: 	#D8DEE9 !important;
     padding: 2px 4px !important;
     border-radius: 3px !important;
